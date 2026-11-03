@@ -19,8 +19,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Intall Dependencies
-        run: pip install -r requirments.txt
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
 
       - name: Run Calculator Tests
         run: python -m pytest -v
